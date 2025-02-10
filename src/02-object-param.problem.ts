@@ -1,6 +1,6 @@
 import { expect, it } from "vitest";
 
-type Params = {
+interface Params {
   first: number;
   second: number;
 }
